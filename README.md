@@ -16,11 +16,14 @@ Backend aplikacji jest napisany w języku JavaScript i wykorzystuje następując
 
 -MySQL: System zarządzania bazami danych (DBMS) do przechowywania danych studentów.
 
+
 Architektura:
 
 Backend składa się z następujących elementów:
 
+
 Opis API
+
 Metody:
 
 API udostępnia cztery metody HTTP:
@@ -55,3 +58,6 @@ Wymaga parametru :id w ścieżce URL, który odpowiada ID studenta do zaktualizo
 Usuwa rekord studenta z tabeli "student".
 Wymaga parametru :id w ścieżce URL, który odpowiada ID studenta do usunięcia.
 
+![image](https://github.com/AnnaPielok/STUDENT/assets/124499788/b2a0bef7-6b81-458f-9a99-05cf179ce339)
+
+Do testowania API backendu aplikacji wykorzystano program Postman.
