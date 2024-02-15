@@ -29,11 +29,15 @@ API udostępnia cztery metody HTTP:
 Pobiera wszystkie rekordy z tabeli "student".
 Zwraca listę obiektów JSON, z których każdy reprezentuje jednego studenta.
 
+![image](https://github.com/AnnaPielok/STUDENT/assets/124499788/1443bd2a-46d0-4369-b3f5-f73cf35606f7)
+
 2. POST /create:
 
 Tworzy nowy rekord studenta w tabeli "student".
 Oczekuje JSONa w treści żądania z polami "Name" i "Email".
 Zwraca obiekt JSON z nowo utworzonym studentem, w tym z wygenerowanym ID.
+
+![image](https://github.com/AnnaPielok/STUDENT/assets/124499788/b71d21c7-99de-4959-aae5-698984eb8718)
 
 3. PUT /update/:id:
 
@@ -41,7 +45,15 @@ Aktualizuje istniejący rekord studenta w tabeli "student".
 Oczekuje JSONa w treści żądania z polami "Name" i "Email".
 Wymaga parametru :id w ścieżce URL, który odpowiada ID studenta do zaktualizowania.
 
+![image](https://github.com/AnnaPielok/STUDENT/assets/124499788/2c303ef2-6d01-4abf-926b-304d969c079a)
+
 4. DELETE /student/:id:
 
 Usuwa rekord studenta z tabeli "student".
 Wymaga parametru :id w ścieżce URL, który odpowiada ID studenta do usunięcia.
+
+
+![image](https://github.com/AnnaPielok/STUDENT/assets/124499788/b2a0bef7-6b81-458f-9a99-05cf179ce339)
+
+
+Do testowania API backendu aplikacji wykorzystano program Postman.
